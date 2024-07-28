@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #f6efef;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #450a33;
+}
+
+.rules-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #dfe4e9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #603b4f;
+}
+
+.rules-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #dfe4e9;
+}
+
+.rules-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rules-container ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.rules-container ul li:last-child {
+    border-bottom: none;
+}
+
+.rules-container ul li strong {
+    color: #450a33;
+}
+
+
+.game-container {
+    max-width: 490px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #b87494;
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 155px;
+    height: 100px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #46213a;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#450a33;
+    color: #b97b96;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #965583;
+}

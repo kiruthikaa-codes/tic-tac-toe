@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Kiruthika's Website{% endblock %}
+{% block content %}
+<h1>Welcome to Tic-Tac-Toe!</h1>
+<div class="rules-container">
+    <h2>How to Play</h2>
+    <ul>
+        <li><strong>Objective:</strong> Get three of your marks in a row (horizontally, vertically, or diagonally) before your opponent.</li>
+        <li><strong>Game Setup:</strong> The game is played on a 3x3 grid. Player 1 is 'X' and Player 2 is 'O'.</li>
+        <li><strong>Turns:</strong> Players take turns placing their mark in an empty square.</li>
+        <li><strong>Winning:</strong> The first player to get three of their marks in a row wins the game.</li>
+        <li><strong>Draw:</strong> If all squares are filled and no player has three in a row, the game is a draw.</li>
+    </ul>
+</div>
+{% endblock %}
